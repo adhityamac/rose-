@@ -1,0 +1,8 @@
+{
+  "auto_update_url": "",
+  "check_update_interval_hours": 6,
+  "tts_preference": "edge_then_pyttsx3",
+  "edge_voice": "en-US-JennyNeural",
+  "name": "Adhi",
+  "github_token": ""
+}
