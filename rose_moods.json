@@ -1,0 +1,138 @@
+[
+  {
+    "timestamp": "2025-09-11T00:40:38.563467",
+    "text": "check the menu",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-11T00:40:50.811339",
+    "text": "word cloud",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-11T00:41:11.732767",
+    "text": "my mood",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-11T00:41:21.165907",
+    "text": "show my mood",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-11T00:41:45.670790",
+    "text": "analyse emojis",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-11T00:42:12.452507",
+    "text": "analyze emojis in hello 😊🌹💜",
+    "compound": 0.8807,
+    "positive": 0.531,
+    "negative": 0.0,
+    "neutral": 0.469
+  },
+  {
+    "timestamp": "2025-09-11T00:42:20.144150",
+    "text": "word cloud",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-12T02:19:09.354177",
+    "text": "scheduling",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-12T02:19:25.816142",
+    "text": "show week summary",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-12T02:19:37.933443",
+    "text": "change theme from image",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-12T02:19:59.843887",
+    "text": "multi language",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-12T02:20:07.218209",
+    "text": "Hindi mein jo bol raha hai",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-12T02:20:16.962711",
+    "text": "Hindi mein bolo",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-12T02:20:32.507748",
+    "text": "upload document",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-12T03:23:43.774488",
+    "text": "show skills",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-19T17:01:28.084275",
+    "text": "hello",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  },
+  {
+    "timestamp": "2025-09-19T17:01:34.308367",
+    "text": "talk to me",
+    "compound": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "neutral": 1.0
+  }
+]
