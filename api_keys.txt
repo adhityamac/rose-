@@ -1,0 +1,20 @@
+# Rose AI Assistant API Keys Configuration
+# 
+# METHOD 1: Environment Variables (Recommended)
+# Create a .env file in this folder with:
+# ROSE_GEMINI_API_KEY=your_actual_api_key_here
+#
+# METHOD 2: Direct Configuration
+# Edit config.py line 164 and replace the empty string:
+# GEMINI_API_KEY = "your_actual_api_key_here"
+#
+# METHOD 3: Runtime Configuration
+# The app will ask you to configure it when you run it
+
+# Get your Gemini API key from:
+# https://makersuite.google.com/app/apikey
+
+# Example .env file content:
+# ROSE_GEMINI_API_KEY=AIzaSyBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# ROSE_OPENWEATHER_API_KEY=your_weather_key_here
+# ROSE_NEWSAPI_API_KEY=your_news_key_here

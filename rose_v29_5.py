@@ -21,31 +21,31 @@ import random
 from datetime import datetime
 import base64
 
-from PySide6.QtCore import Qt, QTimer, QPropertyAnimation, QEasingCurve, QPoint, QRect
-from PySide6.QtWidgets import (
+from PySide6.QtCore import Qt, QTimer, QPropertyAnimation, QEasingCurve, QPoint, QRect  # pyright: ignore[reportMissingImports]  # pyright: ignore[reportMissingImports]
+from PySide6.QtWidgets import (  # pyright: ignore[reportMissingImports]
     QApplication, QWidget, QLabel, QPushButton, QMenu, QScrollArea, QTextEdit,
     QGraphicsOpacityEffect, QVBoxLayout, QHBoxLayout, QProgressBar, QFileDialog
 )
-from PySide6.QtGui import QFont, QPixmap, QCloseEvent, QColor
+from PySide6.QtGui import QFont, QPixmap, QCloseEvent, QColor  # pyright: ignore[reportMissingImports]  # pyright: ignore[reportMissingImports]
 
 # Creative libraries integration
 try:
-    from colorthief import ColorThief
+    from colorthief import ColorThief  # pyright: ignore[reportMissingImports]  # pyright: ignore[reportMissingImports]  # pyright: ignore[reportMissingImports]  # pyright: ignore[reportMissingImports]
     COLORTHIEF_AVAILABLE = True
 except ImportError:
     COLORTHIEF_AVAILABLE = False
     print("[WARN] colorthief not installed - color theme extraction disabled")
 
 try:
-    from wordcloud import WordCloud
-    import matplotlib.pyplot as plt
+    from wordcloud import WordCloud  # pyright: ignore[reportMissingImports]
+    import matplotlib.pyplot as plt  # pyright: ignore[reportMissingImports]
     WORDCLOUD_AVAILABLE = True
 except ImportError:
     WORDCLOUD_AVAILABLE = False
     print("[WARN] wordcloud or matplotlib not installed - word cloud generation disabled")
 
 try:
-    from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+    from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer  # pyright: ignore[reportMissingImports]
     SENTIMENT_AVAILABLE = True
     sentiment_analyzer = SentimentIntensityAnalyzer()
 except ImportError:
@@ -53,14 +53,14 @@ except ImportError:
     print("[WARN] vaderSentiment not installed - mood tracking disabled")
 
 try:
-    import emoji
+    import emoji  # pyright: ignore[reportMissingImports]  # pyright: ignore[reportMissingImports]
     EMOJI_AVAILABLE = True
 except ImportError:
     EMOJI_AVAILABLE = False
     print("[WARN] emoji library not installed - emoji analysis disabled")
 
 try:
-    import customtkinter as ctk
+    import customtkinter as ctk  # pyright: ignore[reportMissingImports]
     CUSTOMTKINTER_AVAILABLE = True
 except ImportError:
     CUSTOMTKINTER_AVAILABLE = False
@@ -69,7 +69,7 @@ except ImportError:
 # Optional WebEngine
 USE_WEBENGINE = True
 try:
-    from PySide6.QtWebEngineWidgets import QWebEngineView
+    from PySide6.QtWebEngineWidgets import QWebEngineView  # pyright: ignore[reportMissingImports]
 except Exception:
     USE_WEBENGINE = False
     print("[WARN] PySide6.QtWebEngineWidgets import failed. HTML background disabled.")
@@ -82,13 +82,13 @@ except Exception:
     print("[WARN] speech_recognition not installed; voice input disabled.")
 
 try:
-    import edge_tts
+    import edge_tts  # pyright: ignore[reportMissingImports]
 except Exception:
     edge_tts = None
     print("[WARN] edge-tts not installed; TTS will be fallback print-only.")
 
 try:
-    from pytube import Search
+    from pytube import Search  # pyright: ignore[reportMissingImports]
 except Exception:
     Search = None
     print("[WARN] pytube not installed; YouTube will open search page.")
@@ -97,7 +97,7 @@ import requests
 
 # New libraries for added features
 try:
-    from icalendar import Calendar, Event
+    from icalendar import Calendar, Event  # pyright: ignore[reportMissingModuleSource]
     ICALENDAR_AVAILABLE = True
 except ImportError:
     ICALENDAR_AVAILABLE = False
@@ -118,8 +118,8 @@ except ImportError:
     print("[WARN] pyautogui not installed - screen capture disabled")
 
 try:
-    import cv2
-    import mediapipe as mp
+    import cv2  # pyright: ignore[reportMissingImports]
+    import mediapipe as mp  # pyright: ignore[reportMissingImports]
     GESTURE_AVAILABLE = True
 except ImportError:
     GESTURE_AVAILABLE = False
@@ -134,15 +134,15 @@ except ImportError:
     print("[WARN] smtplib not installed - email features disabled")
 
 try:
-    from PyPDF2 import PdfReader
+    from PyPDF2 import PdfReader  # pyright: ignore[reportMissingImports]
     PDF_AVAILABLE = True
 except ImportError:
     PDF_AVAILABLE = False
     print("[WARN] PyPDF2 not installed - PDF text extraction disabled")
 
 try:
-    import geopy
-    from geopy.geocoders import Nominatim
+    import geopy  # pyright: ignore[reportUnusedImport, reportUnusedImport, reportMissingImports, reportUnusedImport]  # pyright: ignore[reportMissingImports]
+    from geopy.geocoders import Nominatim  # pyright: ignore[reportMissingImports]
     GEOPY_AVAILABLE = True
 except ImportError:
     GEOPY_AVAILABLE = False

@@ -3,316 +3,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Gradient Design</title>
+    <title>Rose Background</title>
     <style>
-        * {
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            width: 100vw;
-            height: 100vh;
             overflow: hidden;
+            background: linear-gradient(135deg, #FF69B4, #9932CC, #FFB6C1, #DA70D6, #9370DB);
+            background-size: 400% 400%;
+            animation: gradientShift 8s ease infinite;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .container {
             position: relative;
-            background: #000;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
         }
-
-        /* Animated gradient background */
-        .gradient-bg {
+        
+        .flowing-circle {
             position: absolute;
-            width: 200%;
-            height: 200%;
-            top: -50%;
-            left: -50%;
-            background: linear-gradient(45deg, 
-                #000000 0%, 
-                #1a0033 25%, 
-                #330066 50%, 
-                #4d0099 75%, 
-                #6600cc 100%);
-            animation: flowGradient 15s ease-in-out infinite;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05));
+            animation: flow 12s ease-in-out infinite;
         }
-
-        @keyframes flowGradient {
-            0%, 100% {
+        
+        .flowing-circle:nth-child(1) {
+            width: 300px;
+            height: 300px;
+            top: -50px;
+            left: -50px;
+            animation-delay: 0s;
+        }
+        
+        .flowing-circle:nth-child(2) {
+            width: 200px;
+            height: 200px;
+            top: 20%;
+            right: -100px;
+            animation-delay: 2s;
+        }
+        
+        .flowing-circle:nth-child(3) {
+            width: 150px;
+            height: 150px;
+            bottom: -75px;
+            left: 30%;
+            animation-delay: 4s;
+        }
+        
+        .flowing-circle:nth-child(4) {
+            width: 250px;
+            height: 250px;
+            top: 50%;
+            right: -125px;
+            animation-delay: 6s;
+        }
+        
+        .flowing-circle:nth-child(5) {
+            width: 180px;
+            height: 180px;
+            top: 10%;
+            left: 50%;
+            animation-delay: 8s;
+        }
+        
+        .flowing-circle:nth-child(6) {
+            width: 120px;
+            height: 120px;
+            bottom: 20%;
+            right: 20%;
+            animation-delay: 10s;
+        }
+        
+        @keyframes flow {
+            0% {
                 transform: translate(0, 0) rotate(0deg);
+                opacity: 0.3;
             }
             25% {
-                transform: translate(10%, -10%) rotate(90deg);
+                transform: translate(100px, -50px) rotate(90deg);
+                opacity: 0.7;
             }
             50% {
-                transform: translate(-10%, 10%) rotate(180deg);
+                transform: translate(-50px, 100px) rotate(180deg);
+                opacity: 0.5;
             }
             75% {
-                transform: translate(5%, 5%) rotate(270deg);
+                transform: translate(150px, 50px) rotate(270deg);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translate(0, 0) rotate(360deg);
+                opacity: 0.3;
             }
         }
-
-        /* Liquid overlay layers */
-        .liquid-layer {
-            position: absolute;
-            width: 150%;
-            height: 150%;
-            top: -25%;
-            left: -25%;
-            opacity: 0.3;
-            filter: blur(40px);
-        }
-
-        .liquid-1 {
-            background: radial-gradient(circle at 30% 50%, #6600cc 0%, transparent 70%);
-            animation: liquidFlow1 20s ease-in-out infinite;
-        }
-
-        .liquid-2 {
-            background: radial-gradient(circle at 70% 70%, #330066 0%, transparent 60%);
-            animation: liquidFlow2 25s ease-in-out infinite reverse;
-        }
-
-        .liquid-3 {
-            background: radial-gradient(circle at 50% 30%, #4d0099 0%, transparent 50%);
-            animation: liquidFlow3 30s ease-in-out infinite;
-        }
-
-        @keyframes liquidFlow1 {
-            0%, 100% {
-                transform: translate(0, 0) scale(1);
-            }
-            33% {
-                transform: translate(20%, -10%) scale(1.1);
-            }
-            66% {
-                transform: translate(-10%, 20%) scale(0.9);
-            }
-        }
-
-        @keyframes liquidFlow2 {
-            0%, 100% {
-                transform: translate(0, 0) scale(1);
-            }
-            33% {
-                transform: translate(-15%, 15%) scale(1.2);
-            }
-            66% {
-                transform: translate(15%, -15%) scale(0.8);
-            }
-        }
-
-        @keyframes liquidFlow3 {
-            0%, 100% {
-                transform: translate(0, 0) rotate(0deg) scale(1);
-            }
-            50% {
-                transform: translate(10%, 10%) rotate(180deg) scale(1.15);
-            }
-        }
-
-        /* Center circles container */
-        .center-circles {
+        
+        .pulse-glow {
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%);
             width: 400px;
             height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* Concentric circles with fading orange */
-        .circle {
-            position: absolute;
+            background: radial-gradient(circle, rgba(255, 105, 180, 0.2), rgba(153, 50, 204, 0.1), transparent);
             border-radius: 50%;
-            animation: pulse 3s ease-in-out infinite;
+            transform: translate(-50%, -50%);
+            animation: pulseGlow 6s ease-in-out infinite;
         }
-
-        .circle-1 {
-            width: 80px;
-            height: 80px;
-            background: radial-gradient(circle, #ff9f40 0%, #ff8820 100%);
-            z-index: 5;
-        }
-
-        .circle-2 {
-            width: 140px;
-            height: 140px;
-            background: radial-gradient(circle, rgba(255, 143, 32, 0.8) 0%, rgba(255, 127, 0, 0.6) 100%);
-            z-index: 4;
-            animation-delay: 0.2s;
-        }
-
-        .circle-3 {
-            width: 200px;
-            height: 200px;
-            background: radial-gradient(circle, rgba(205, 97, 25, 0.6) 0%, rgba(185, 77, 20, 0.4) 100%);
-            z-index: 3;
-            animation-delay: 0.4s;
-        }
-
-        .circle-4 {
-            width: 260px;
-            height: 260px;
-            background: radial-gradient(circle, rgba(155, 57, 15, 0.4) 0%, rgba(135, 47, 10, 0.2) 100%);
-            z-index: 2;
-            animation-delay: 0.6s;
-        }
-
-        .circle-5 {
-            width: 320px;
-            height: 320px;
-            background: radial-gradient(circle, rgba(105, 27, 5, 0.2) 0%, rgba(85, 17, 0, 0.1) 100%);
-            z-index: 1;
-            animation-delay: 0.8s;
-        }
-
-        @keyframes pulse {
+        
+        @keyframes pulseGlow {
             0%, 100% {
-                transform: scale(1);
-                opacity: 1;
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 0.4;
             }
             50% {
-                transform: scale(1.05);
-                opacity: 0.9;
+                transform: translate(-50%, -50%) scale(1.5);
+                opacity: 0.8;
             }
         }
-
-        /* Top left controls */
-        .top-controls {
+        
+        .floating-particles {
             position: absolute;
-            top: 20px;
-            left: 20px;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            z-index: 10;
+            width: 100%;
+            height: 100%;
         }
-
-        /* Rose icon */
-        .rose-icon {
-            width: 40px;
-            height: 40px;
-            fill: #ff6b9d;
-            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
-            transition: transform 0.3s ease;
+        
+        .particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            animation: floatParticle 4s linear infinite;
         }
-
-        .rose-icon:hover {
-            transform: scale(1.1);
+        
+        .particle:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
+        .particle:nth-child(2) { top: 20%; right: 15%; animation-delay: 0.8s; }
+        .particle:nth-child(3) { top: 60%; left: 20%; animation-delay: 1.6s; }
+        .particle:nth-child(4) { bottom: 20%; right: 25%; animation-delay: 2.4s; }
+        .particle:nth-child(5) { top: 40%; left: 60%; animation-delay: 3.2s; }
+        .particle:nth-child(6) { top: 80%; right: 40%; animation-delay: 0.4s; }
+        .particle:nth-child(7) { top: 30%; left: 80%; animation-delay: 1.2s; }
+        .particle:nth-child(8) { bottom: 40%; left: 40%; animation-delay: 2.0s; }
+        
+        @keyframes floatParticle {
+            0% {
+                opacity: 0;
+                transform: translateY(0px) scale(0);
+            }
+            20% {
+                opacity: 1;
+                transform: translateY(-20px) scale(1);
+            }
+            80% {
+                opacity: 1;
+                transform: translateY(-100px) scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(-120px) scale(0);
+            }
         }
-
-        /* Control buttons */
-        .control-btn {
-            padding: 8px 16px;
-            background: rgba(102, 0, 204, 0.3);
-            border: 1px solid rgba(102, 0, 204, 0.5);
-            color: #fff;
-            border-radius: 20px;
-            cursor: pointer;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
+        
+        .wave-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(45deg, rgba(255, 105, 180, 0.1), rgba(153, 50, 204, 0.1));
+            animation: wave 3s ease-in-out infinite;
         }
-
-        .control-btn:hover {
-            background: rgba(102, 0, 204, 0.5);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(102, 0, 204, 0.4);
-        }
-
-        /* Smooth animation toggle */
-        .smooth-transition {
-            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        
+        @keyframes wave {
+            0%, 100% { transform: translateX(0) scaleY(1); }
+            50% { transform: translateX(50px) scaleY(1.2); }
         }
     </style>
 </head>
 <body>
-    <!-- Animated gradient background -->
-    <div class="gradient-bg"></div>
-    
-    <!-- Liquid overlay layers for smooth flow effect -->
-    <div class="liquid-layer liquid-1"></div>
-    <div class="liquid-layer liquid-2"></div>
-    <div class="liquid-layer liquid-3"></div>
-    
-    <!-- Center circles with fading orange gradient -->
-    <div class="center-circles">
-        <div class="circle circle-5"></div>
-        <div class="circle circle-4"></div>
-        <div class="circle circle-3"></div>
-        <div class="circle circle-2"></div>
-        <div class="circle circle-1"></div>
+    <div class="container">
+        <div class="pulse-glow"></div>
+        <div class="flowing-circle"></div>
+        <div class="flowing-circle"></div>
+        <div class="flowing-circle"></div>
+        <div class="flowing-circle"></div>
+        <div class="flowing-circle"></div>
+        <div class="flowing-circle"></div>
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="wave-overlay"></div>
     </div>
-    
-    <!-- Top left controls -->
-    <div class="top-controls">
-        <!-- Rose SVG icon -->
-        <svg class="rose-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2C12 2 16 6 16 10C16 13 14 15 12 17C10 15 8 13 8 10C8 6 12 2 12 2Z"/>
-            <path d="M5.5 9C5.5 9 7 10.5 8 10C8 9 7.5 7.5 6 7C4.5 7.5 4 9 5.5 9Z"/>
-            <path d="M18.5 9C18.5 9 17 10.5 16 10C16 9 16.5 7.5 18 7C19.5 7.5 20 9 18.5 9Z"/>
-            <path d="M12 17C12 17 10 19 10 21C10 22 11 22 12 22C13 22 14 22 14 21C14 19 12 17 12 17Z"/>
-        </svg>
-        
-        <!-- Control buttons -->
-        <button class="control-btn" onclick="toggleAnimation()">Toggle Flow</button>
-        <button class="control-btn" onclick="changeSpeed()">Change Speed</button>
-        <button class="control-btn" onclick="toggleGlow()">Toggle Glow</button>
-    </div>
-    
-    <script>
-        let animationPaused = false;
-        let currentSpeed = 1;
-        let glowEnabled = true;
-
-        function toggleAnimation() {
-            const elements = document.querySelectorAll('.gradient-bg, .liquid-layer, .circle');
-            animationPaused = !animationPaused;
-            
-            elements.forEach(el => {
-                el.style.animationPlayState = animationPaused ? 'paused' : 'running';
-            });
-        }
-
-        function changeSpeed() {
-            const speeds = [0.5, 1, 1.5, 2];
-            currentSpeed = speeds[(speeds.indexOf(currentSpeed) + 1) % speeds.length];
-            
-            document.querySelectorAll('.gradient-bg, .liquid-layer, .circle').forEach(el => {
-                const currentAnimation = window.getComputedStyle(el).animationDuration;
-                const baseDuration = parseFloat(currentAnimation);
-                el.style.animationDuration = (baseDuration / currentSpeed) + 's';
-            });
-        }
-
-        function toggleGlow() {
-            glowEnabled = !glowEnabled;
-            const circles = document.querySelectorAll('.circle');
-            
-            circles.forEach(circle => {
-                if (glowEnabled) {
-                    circle.style.filter = 'drop-shadow(0 0 20px rgba(255, 127, 0, 0.5))';
-                } else {
-                    circle.style.filter = 'none';
-                }
-            });
-        }
-
-        // Add subtle mouse interaction
-        document.addEventListener('mousemove', (e) => {
-            const x = e.clientX / window.innerWidth;
-            const y = e.clientY / window.innerHeight;
-            
-            document.querySelector('.liquid-1').style.transform = 
-                `translate(${x * 10}px, ${y * 10}px)`;
-        });
-
-        // Initialize with glow
-        toggleGlow();
-        toggleGlow();
-    </script>
 </body>
 </html>

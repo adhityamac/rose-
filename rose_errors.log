@@ -1,0 +1,600 @@
+2025-09-21 17:23:11,693 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 17:23:12,091 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 17:23:12,138 - RoseAI - INFO - : Pytube initialized
+2025-09-21 17:23:12,817 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 17:23:26,772 - RoseAI - INFO - : Processing command: hello
+2025-09-21 17:23:38,515 - RoseAI - INFO - : Processing command: upload document
+2025-09-21 17:26:53,303 - RoseAI - WARNING - : VADER sentiment not available - mood tracking disabled
+2025-09-21 17:26:53,325 - RoseAI - WARNING - : Edge TTS not available - TTS disabled
+2025-09-21 17:26:53,349 - RoseAI - WARNING - : Pytube not available - YouTube search limited
+2025-09-21 17:30:16,938 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 17:30:17,301 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 17:30:17,336 - RoseAI - INFO - : Pytube initialized
+2025-09-21 17:30:18,031 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 17:30:28,284 - RoseAI - INFO - : Processing command: volume up
+2025-09-21 17:30:28,290 - RoseAI - ERROR - Error in Volume control: [WinError 2] The system cannot find the file specified
+2025-09-21 17:30:28,363 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\media_services.py", line 280, in adjust_volume
+    subprocess.run(["nircmd.exe", "changesysvolume", "5000"])
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2025-09-21 17:30:33,134 - RoseAI - INFO - : Processing command: volume up
+2025-09-21 17:30:33,138 - RoseAI - ERROR - Error in Volume control: [WinError 2] The system cannot find the file specified
+2025-09-21 17:30:33,139 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\media_services.py", line 280, in adjust_volume
+    subprocess.run(["nircmd.exe", "changesysvolume", "5000"])
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2025-09-21 17:30:37,497 - RoseAI - INFO - : Processing command: change theme from image
+2025-09-21 17:32:42,955 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 17:32:43,346 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 17:32:43,381 - RoseAI - INFO - : Pytube initialized
+2025-09-21 17:32:44,236 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 17:32:54,488 - RoseAI - INFO - : Processing command: hello hay
+2025-09-21 17:33:04,724 - RoseAI - INFO - : Processing command: ok play music
+2025-09-21 17:33:54,939 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 17:33:55,358 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 17:33:55,404 - RoseAI - INFO - : Pytube initialized
+2025-09-21 17:33:56,002 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 17:34:00,248 - RoseAI - INFO - : Processing command: change theme from image
+2025-09-21 17:48:42,040 - RoseAI - WARNING - : VADER sentiment not available - mood tracking disabled
+2025-09-21 17:48:42,094 - RoseAI - WARNING - : Edge TTS not available - TTS disabled
+2025-09-21 17:48:42,141 - RoseAI - WARNING - : Pytube not available - YouTube search limited
+2025-09-21 17:49:11,223 - RoseAI - WARNING - : VADER sentiment not available - mood tracking disabled
+2025-09-21 17:49:11,231 - RoseAI - WARNING - : Edge TTS not available - TTS disabled
+2025-09-21 17:49:11,231 - RoseAI - WARNING - : Pytube not available - YouTube search limited
+2025-09-21 17:49:41,919 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 17:49:42,283 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 17:49:42,324 - RoseAI - INFO - : Pytube initialized
+2025-09-21 17:49:42,994 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 17:51:30,933 - RoseAI - WARNING - : VADER sentiment not available - mood tracking disabled
+2025-09-21 17:51:30,951 - RoseAI - WARNING - : Edge TTS not available - TTS disabled
+2025-09-21 17:51:30,951 - RoseAI - WARNING - : Pytube not available - YouTube search limited
+2025-09-21 17:51:56,299 - RoseAI - WARNING - : VADER sentiment not available - mood tracking disabled
+2025-09-21 17:51:56,346 - RoseAI - WARNING - : Edge TTS not available - TTS disabled
+2025-09-21 17:51:56,360 - RoseAI - WARNING - : Pytube not available - YouTube search limited
+2025-09-21 17:52:23,631 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 17:52:24,028 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 17:52:24,092 - RoseAI - INFO - : Pytube initialized
+2025-09-21 17:52:24,931 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 17:52:35,529 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 17:52:36,062 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 17:52:36,117 - RoseAI - INFO - : Pytube initialized
+2025-09-21 17:52:36,987 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 17:52:43,468 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 17:52:44,155 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 17:52:44,233 - RoseAI - INFO - : Pytube initialized
+2025-09-21 17:52:45,821 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 17:53:28,573 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 17:53:29,438 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 17:53:29,522 - RoseAI - INFO - : Pytube initialized
+2025-09-21 17:53:30,747 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 17:53:33,623 - RoseAI - INFO - : Processing command: setup guide
+2025-09-21 17:53:44,044 - RoseAI - INFO - : Processing command: hello
+2025-09-21 17:53:52,149 - RoseAI - INFO - : Processing command: remind me to
+2025-09-21 17:54:14,060 - RoseAI - INFO - : Processing command: change theme from image
+2025-09-21 17:54:16,917 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+2025-09-21 17:54:16,920 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 95, in call_with_context
+    raise APIConnectionError(f"Gemini API error: {response.status_code}")
+error_handler.APIConnectionError: Gemini API error: 400
+
+2025-09-21 17:54:22,765 - RoseAI - INFO - : Processing command: upload document
+2025-09-21 17:54:25,014 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+2025-09-21 17:54:25,015 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 95, in call_with_context
+    raise APIConnectionError(f"Gemini API error: {response.status_code}")
+error_handler.APIConnectionError: Gemini API error: 400
+
+2025-09-21 18:02:51,299 - RoseAI - WARNING - : VADER sentiment not available - mood tracking disabled
+2025-09-21 18:02:51,317 - RoseAI - WARNING - : Edge TTS not available - TTS disabled
+2025-09-21 18:02:51,317 - RoseAI - WARNING - : Pytube not available - YouTube search limited
+2025-09-21 18:02:58,076 - RoseAI - WARNING - : VADER sentiment not available - mood tracking disabled
+2025-09-21 18:02:58,083 - RoseAI - WARNING - : Edge TTS not available - TTS disabled
+2025-09-21 18:02:58,087 - RoseAI - WARNING - : Pytube not available - YouTube search limited
+2025-09-21 18:06:51,515 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:06:53,920 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:06:54,243 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:07:00,928 - RoseAI - ERROR - Error in Voice recognition setup: Could not find PyAudio; check installation
+2025-09-21 18:07:00,933 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\site-packages\speech_recognition\__init__.py", line 103, in get_pyaudio
+    import pyaudio
+ModuleNotFoundError: No module named 'pyaudio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adhitya\Desktop\baby\rose_v30_refactored.py", line 798, in _start_background_listener
+    microphone = sr.Microphone()
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\site-packages\speech_recognition\__init__.py", line 75, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\site-packages\speech_recognition\__init__.py", line 105, in get_pyaudio
+    raise AttributeError("Could not find PyAudio; check installation")
+AttributeError: Could not find PyAudio; check installation
+
+2025-09-21 18:08:03,978 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:08:04,357 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:08:04,407 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:08:06,171 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 18:08:11,757 - RoseAI - INFO - : Processing command: hey what time is it now
+2025-09-21 18:08:24,724 - RoseAI - INFO - : Processing command: a rose
+2025-09-21 18:08:26,438 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+2025-09-21 18:08:26,446 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 95, in call_with_context
+    raise APIConnectionError(f"Gemini API error: {response.status_code}")
+error_handler.APIConnectionError: Gemini API error: 400
+
+2025-09-21 18:22:03,754 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:22:04,514 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:22:04,570 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:22:06,133 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 18:22:20,880 - RoseAI - ERROR - Error in Voice recognition: recognition connection failed: [Errno 11001] getaddrinfo failed
+2025-09-21 18:22:21,105 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1294, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1340, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 952, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 827, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 215, in obtain_transcription
+    response = urlopen(request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\rose_v30_refactored.py", line 804, in callback
+    text = recognizer.recognize_google(audio)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 255, in recognize_legacy
+    response_text = obtain_transcription(
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 219, in obtain_transcription
+    raise RequestError(
+speech_recognition.exceptions.RequestError: recognition connection failed: [Errno 11001] getaddrinfo failed
+
+2025-09-21 18:22:24,182 - RoseAI - ERROR - Error in Voice recognition: recognition connection failed: [Errno 11001] getaddrinfo failed
+2025-09-21 18:22:24,198 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1294, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1340, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 952, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 827, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 215, in obtain_transcription
+    response = urlopen(request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\rose_v30_refactored.py", line 804, in callback
+    text = recognizer.recognize_google(audio)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 255, in recognize_legacy
+    response_text = obtain_transcription(
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 219, in obtain_transcription
+    raise RequestError(
+speech_recognition.exceptions.RequestError: recognition connection failed: [Errno 11001] getaddrinfo failed
+
+2025-09-21 18:22:31,995 - RoseAI - ERROR - Error in Voice recognition: recognition connection failed: [Errno 11001] getaddrinfo failed
+2025-09-21 18:22:32,013 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1294, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1340, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 952, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 827, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 215, in obtain_transcription
+    response = urlopen(request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\rose_v30_refactored.py", line 804, in callback
+    text = recognizer.recognize_google(audio)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 255, in recognize_legacy
+    response_text = obtain_transcription(
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 219, in obtain_transcription
+    raise RequestError(
+speech_recognition.exceptions.RequestError: recognition connection failed: [Errno 11001] getaddrinfo failed
+
+2025-09-21 18:22:35,253 - RoseAI - ERROR - Error in Voice recognition: recognition connection failed: [Errno 11001] getaddrinfo failed
+2025-09-21 18:22:35,268 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1294, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1340, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 952, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 827, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 215, in obtain_transcription
+    response = urlopen(request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\rose_v30_refactored.py", line 804, in callback
+    text = recognizer.recognize_google(audio)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 255, in recognize_legacy
+    response_text = obtain_transcription(
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 219, in obtain_transcription
+    raise RequestError(
+speech_recognition.exceptions.RequestError: recognition connection failed: [Errno 11001] getaddrinfo failed
+
+2025-09-21 18:22:38,290 - RoseAI - ERROR - Error in Voice recognition: recognition connection failed: [Errno 11001] getaddrinfo failed
+2025-09-21 18:22:38,297 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1294, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1340, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 952, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 827, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 215, in obtain_transcription
+    response = urlopen(request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\rose_v30_refactored.py", line 804, in callback
+    text = recognizer.recognize_google(audio)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 255, in recognize_legacy
+    response_text = obtain_transcription(
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adhitya\Desktop\baby\venv\Lib\site-packages\speech_recognition\recognizers\google.py", line 219, in obtain_transcription
+    raise RequestError(
+speech_recognition.exceptions.RequestError: recognition connection failed: [Errno 11001] getaddrinfo failed
+
+2025-09-21 18:22:41,869 - RoseAI - INFO - : Processing command: word cloud
+2025-09-21 18:23:36,353 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:23:37,091 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:23:37,161 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:23:38,216 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 18:25:42,796 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:25:43,892 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:25:44,127 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:25:47,363 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 18:25:57,608 - RoseAI - INFO - : Processing command: hey rose
+2025-09-21 18:26:01,838 - RoseAI - INFO - : Processing command: arrows
+2025-09-21 18:26:06,326 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+2025-09-21 18:26:06,355 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 95, in call_with_context
+    raise APIConnectionError(f"Gemini API error: {response.status_code}")
+error_handler.APIConnectionError: Gemini API error: 400
+
+2025-09-21 18:26:45,964 - RoseAI - INFO - : Processing command: play music on youtube
+2025-09-21 18:37:18,940 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:37:19,333 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:37:19,391 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:37:22,826 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 18:37:28,341 - RoseAI - INFO - : Processing command: hello
+2025-09-21 18:37:28,916 - RoseAI - INFO - : Processing command: play music on youtube
+2025-09-21 18:37:42,053 - RoseAI - INFO - : Processing command: play music
+2025-09-21 18:37:45,520 - RoseAI - INFO - : Processing command: upload document
+2025-09-21 18:37:47,895 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+2025-09-21 18:37:47,899 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 95, in call_with_context
+    raise APIConnectionError(f"Gemini API error: {response.status_code}")
+error_handler.APIConnectionError: Gemini API error: 400
+
+2025-09-21 18:40:22,047 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:40:22,522 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:40:22,577 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:40:23,856 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 18:40:28,782 - RoseAI - INFO - : Processing command: upload document
+2025-09-21 18:40:34,167 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+2025-09-21 18:40:34,170 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 95, in call_with_context
+    raise APIConnectionError(f"Gemini API error: {response.status_code}")
+error_handler.APIConnectionError: Gemini API error: 400
+
+2025-09-21 18:44:32,412 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:44:32,755 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:44:32,800 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:44:33,468 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 18:44:38,439 - RoseAI - INFO - : Processing command: upload document
+2025-09-21 18:44:44,461 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+2025-09-21 18:44:44,464 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 95, in call_with_context
+    raise APIConnectionError(f"Gemini API error: {response.status_code}")
+error_handler.APIConnectionError: Gemini API error: 400
+
+2025-09-21 18:48:37,571 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:48:37,908 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:48:37,970 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:48:38,640 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 18:48:42,551 - RoseAI - INFO - : Processing command: upload document
+2025-09-21 18:48:45,774 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+2025-09-21 18:48:45,777 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 95, in call_with_context
+    raise APIConnectionError(f"Gemini API error: {response.status_code}")
+error_handler.APIConnectionError: Gemini API error: 400
+
+2025-09-21 18:50:31,004 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-21 18:50:31,330 - RoseAI - INFO - : Edge TTS initialized
+2025-09-21 18:50:31,361 - RoseAI - INFO - : Pytube initialized
+2025-09-21 18:50:32,003 - RoseAI - INFO - : Background voice recognition started
+2025-09-21 18:50:35,410 - RoseAI - INFO - : Processing command: upload document
+2025-09-21 18:50:39,931 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+Details: API key expired. Please renew the API key.
+
+Troubleshooting:
+1. Check API key format (should start with 'AIza')
+2. Ensure API key is not expired
+3. Run 'python setup_api_key.py' to reconfigure
+4. Visit https://makersuite.google.com/app/apikey for a new key
+2025-09-21 18:50:39,933 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 108, in call_with_context
+    raise APIConnectionError(error_msg)
+error_handler.APIConnectionError: Gemini API error: 400
+Details: API key expired. Please renew the API key.
+
+Troubleshooting:
+1. Check API key format (should start with 'AIza')
+2. Ensure API key is not expired
+3. Run 'python setup_api_key.py' to reconfigure
+4. Visit https://makersuite.google.com/app/apikey for a new key
+
+2025-09-23 00:47:06,990 - RoseAI - INFO - : VADER sentiment analyzer initialized
+2025-09-23 00:47:08,084 - RoseAI - INFO - : Edge TTS initialized
+2025-09-23 00:47:08,152 - RoseAI - INFO - : Pytube initialized
+2025-09-23 00:47:12,209 - RoseAI - INFO - : Background voice recognition started
+2025-09-23 00:47:19,856 - RoseAI - INFO - : Processing command: hello rose
+2025-09-23 00:47:31,538 - RoseAI - INFO - : Processing command: can you play
+2025-09-23 00:47:34,035 - RoseAI - INFO - : Processing command: bhai ji call
+2025-09-23 00:47:34,451 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+Details: Invalid JSON payload received. Unknown name "systemInstruction": Cannot find field.
+
+Troubleshooting:
+1. Check API key format (should start with 'AIza')
+2. Ensure API key is not expired
+3. Run 'python setup_api_key.py' to reconfigure
+4. Visit https://makersuite.google.com/app/apikey for a new key
+2025-09-23 00:47:34,540 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 108, in call_with_context
+    raise APIConnectionError(error_msg)
+error_handler.APIConnectionError: Gemini API error: 400
+Details: Invalid JSON payload received. Unknown name "systemInstruction": Cannot find field.
+
+Troubleshooting:
+1. Check API key format (should start with 'AIza')
+2. Ensure API key is not expired
+3. Run 'python setup_api_key.py' to reconfigure
+4. Visit https://makersuite.google.com/app/apikey for a new key
+
+2025-09-23 00:47:37,427 - RoseAI - ERROR - Error in Gemini context call: Gemini API error: 400
+Details: Invalid JSON payload received. Unknown name "systemInstruction": Cannot find field.
+
+Troubleshooting:
+1. Check API key format (should start with 'AIza')
+2. Ensure API key is not expired
+3. Run 'python setup_api_key.py' to reconfigure
+4. Visit https://makersuite.google.com/app/apikey for a new key
+2025-09-23 00:47:37,432 - RoseAI - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\adhitya\Desktop\baby\ai_services.py", line 108, in call_with_context
+    raise APIConnectionError(error_msg)
+error_handler.APIConnectionError: Gemini API error: 400
+Details: Invalid JSON payload received. Unknown name "systemInstruction": Cannot find field.
+
+Troubleshooting:
+1. Check API key format (should start with 'AIza')
+2. Ensure API key is not expired
+3. Run 'python setup_api_key.py' to reconfigure
+4. Visit https://makersuite.google.com/app/apikey for a new key
+

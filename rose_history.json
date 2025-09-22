@@ -182,5 +182,13 @@
         "text": "talk to me"
       }
     ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "can you talk back"
+      }
+    ]
   }
 ]

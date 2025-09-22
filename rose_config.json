@@ -1,0 +1,30 @@
+{
+  "api": {
+    "gemini_api_key": "AIzaSyApR_SG0n9FatvRuLxB9Sydbmt0kkwHCKE",
+    "openweather_api_key": "",
+    "newsapi_api_key": "",
+    "email_user": "",
+    "email_pass": ""
+  },
+  "ui": {
+    "window_width": 880,
+    "window_height": 600,
+    "primary_color": "#FF69B4",
+    "secondary_color": "#9932CC",
+    "accent_color": "#FFB6C1",
+    "language": "en",
+    "personality": "caring"
+  },
+  "features": {
+    "enable_voice": true,
+    "enable_gestures": true,
+    "enable_screen_analysis": true,
+    "enable_mood_tracking": true,
+    "enable_music_integration": true,
+    "enable_calendar_export": true,
+    "enable_email": true,
+    "max_conversation_history": 100,
+    "max_mood_history": 100,
+    "proactive_check_interval": 300
+  }
+}
